@@ -17,4 +17,6 @@
     </beans:bean>
     <beans:bean id="studentDao" class="main.models.dao.StudentDaoImpl"/>
 
+    <beans:bean class="main.utils.BenchmarkBeanPostProcessor" />
+
 </beans:beans>
